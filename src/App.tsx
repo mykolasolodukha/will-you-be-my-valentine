@@ -16,8 +16,9 @@ export default function Page() {
             "Ти впевнена?",
             "А якщо я попрошу дуже гарно?",
             "Дуже тебе прошу",
-            "З шоколадним рисовим тортиком зверху",
-            "А як щодо морозива з матча",
+            "А якщо я попрошу з цукеркою?",
+            "А як щодо морозива?",
+            "А якщо з чаєм з мʼятою?",
             "БУДЬ ЛАСКАААА",
             "Але :*(",
             "Я помру",
@@ -38,7 +39,8 @@ export default function Page() {
             {yesPressed ? (
                 <>
                     <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif"/>
-                    <div className="my-4 text-4xl font-bold">ВУУУУУ!!! Чудовий вибір, лю!! ;))
+                    <div className="my-4 text-4xl font-bold">
+                        ЮХУУУУ!!! Чудовий вибір, до зустрічі в четвер після лекції!! ;))
                     </div>
                 </>
             ) : (
